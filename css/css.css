@@ -15,12 +15,9 @@
 .site-head .topbar .shortcut-links{
     float: left;
 }
-.site-head .topbar .shortcut-links ul{
-
-}
 .site-head .topbar .shortcut-links  > ul > li{
     float: left;
-    margin-left: 18px;
+    margin-right: 18px;
     font-size: 14px;
 }
 .site-head .topbar .shortcut-links > ul > li.have-menu{
@@ -32,7 +29,6 @@
     right: 0;
     top: 50%;
     /* 垂直居中开始 */
-    margin-top: 50%;
     margin-top: -6px;
     /* 垂直居中结束 */
     width: 12px;
@@ -44,7 +40,7 @@
 }
 .site-head .topbar .shortcut-links > ul > li.have-menu .arrow b{
     position: absolute;
-    left: 3px;
+    left: 4px;
     top: 2px ;
     width: 6px;
     height: 6px;
@@ -53,7 +49,7 @@
 }
 .site-head .topbar .shortcut-links > ul > li.have-menu .arrow i{
     position: absolute;
-    left: 3px;
+    left: 4px;
     top: 0.5px;
     width: 6px;
     height: 6px;
@@ -140,7 +136,7 @@
 
 .site-head .main-nav ul li{
     float: left;
-    margin-left: 18px;
+    margin-right: 18px;
 }
 
 .site-head .main-nav ul li.have-menu{
@@ -181,7 +177,6 @@
     color: #20BD9A;
     line-height: 36px;
     font-weight: bold;
-    margin-left: 18px;
 }
 
 .site-head .header-con .soso-box{
@@ -229,7 +224,7 @@
     width: 1152px;
     left: 50%;
     /* -576 + 18*/
-    margin-left: -558px;
+    margin-left: -576px;
     /* 这里的100%高度绝对不能省略，因为如果省略了，它的height就是0 */
     /* 那么它的子盒子设置16.6%就没有意义了 */
     height: 100%;
@@ -384,4 +379,43 @@
 }
 .hot-ads ul li:last-child{
     margin-right: 0;
+}
+.xxsw{
+    padding-top: 40px;
+    height: 698px;
+    background-color: #F7F7F7;
+}
+.xxsw .hd{
+    margin-bottom: 32px;
+}
+.xxsw .hd h2{
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+}
+.xxsw .hd em{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: #1C1F21;
+}
+.xxsw ul li{
+    float: left;
+    width: 264px;
+    height: 270px;
+    margin-right: 32px;
+    background-color: white;
+    margin-bottom: 32px;
+}
+.xxsw ul li:nth-child(4n){
+    margin-right: 0;
+}
+.xxsw ul li .wordbox{
+    padding: 15px;
+    color: #1C1F21;
+    font-size: 14px;
+}
+.xxsw ul li:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
 }
